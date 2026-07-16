@@ -1,0 +1,135 @@
+.prediction-summary{
+
+    margin-top:40px;
+
+}
+
+.summary-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:40px;
+
+}
+
+.summary-header h1{
+
+    font-size:48px;
+
+    margin-bottom:8px;
+
+    color:#111;
+
+}
+
+.summary-header p{
+
+    color:#777;
+
+    font-size:18px;
+
+}
+
+.recommendation{
+
+    padding:14px 30px;
+
+    border-radius:30px;
+
+    font-weight:700;
+
+    font-size:18px;
+
+    color:white;
+
+}
+
+.recommendation.buy{
+
+    background:#2FC26E;
+
+}
+
+.recommendation.strong-buy{
+
+    background:#17a34a;
+
+}
+
+.recommendation.hold{
+
+    background:#f5b942;
+
+}
+
+.recommendation.sell{
+
+    background:#f44336;
+
+}
+
+.recommendation.strong-sell{
+
+    background:#b71c1c;
+
+}
+
+.summary-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.summary-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:28px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.25s;
+
+}
+
+.summary-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.summary-card span{
+
+    color:#777;
+
+    font-size:16px;
+
+}
+
+.summary-card h2{
+
+    margin-top:15px;
+
+    font-size:34px;
+
+    color:#111;
+
+}
+
+.analysis-container{
+
+    width:90%;
+
+    margin:50px auto 80px auto;
+
+}

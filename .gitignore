@@ -1,0 +1,133 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# ==========================
+# Virtual Environments
+# ==========================
+venv/
+venv311/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Vector Database
+# ==========================
+vector_db/
+chroma/
+chroma_db/
+*.faiss
+
+# ==========================
+# ML Models
+# ==========================
+models/
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Uncomment if you want to keep trained models out of Git
+# app/models/
+
+# ==========================
+# Data
+# ==========================
+data/raw/
+data/cache/
+*.csv
+*.parquet
+
+# Keep sample data if needed
+#!data/sample.csv
+
+# ==========================
+# Frontend
+# ==========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+
+# ==========================
+# npm/yarn
+# ==========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# Docker
+# ==========================
+docker-compose.override.yml
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.bak
+
+# ==========================
+# Secrets
+# ==========================
+*.pem
+*.key
+*.crt

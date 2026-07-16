@@ -1,0 +1,99 @@
+.trading-range{
+
+    margin-top:45px;
+
+}
+
+.trading-header{
+
+    margin-bottom:30px;
+
+}
+
+.trading-header h2{
+
+    font-size:34px;
+
+    color:#111;
+
+    margin-bottom:8px;
+
+}
+
+.trading-header p{
+
+    color:#777;
+
+    font-size:17px;
+
+}
+
+.range-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.range-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.25s;
+
+}
+
+.range-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.range-card span{
+
+    color:#777;
+
+    font-size:16px;
+
+}
+
+.range-card h2{
+
+    margin-top:15px;
+
+    font-size:38px;
+
+    color:#111;
+
+}
+
+.expected{
+
+    background:linear-gradient(
+        135deg,
+        #2FC26E,
+        #52D68C
+    );
+
+}
+
+.expected span{
+
+    color:white;
+
+}
+
+.expected h2{
+
+    color:white;
+
+}
